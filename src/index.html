@@ -9,11 +9,9 @@
   <body class="page">
     <div class="page__container">
       <header class="header">
-        <img
-          src="<%=require('./images/logo.svg')%>"
-          alt="Логотип"
-          class="header__logo"
-        />
+        <a href="#" class="header__logo">
+          <img src="<%=require('./images/logo.svg')%>" alt="Логотип" />
+        </a>
         <nav class="header__nav">
           <ul class="header__list">
             <li><a href="#" class="header__link">Home</a></li>
@@ -87,6 +85,160 @@
             alt=""
             class="intro__image"
           />
+        </section>
+        <section class="tools">
+          <h2 class="tools__title">Most Popular Tools</h2>
+          <p class="tools__subtitle">
+            Tools for the best Designers and Developers most popularly used in
+            the world
+          </p>
+          <div class="tools__cards">
+            <div class="tools__card card">
+              <div class="card__gradient"></div>
+              <div class="card__header">
+                <img
+                  src="<%=require('./images/figma-logo.svg')%>"
+                  alt="Логотип программы"
+                  class="card__image"
+                />
+                <div class="card__title">
+                  <h4 class="card__name">FIGMA</h4>
+                  <p class="card__subtitle">Free</p>
+                </div>
+              </div>
+              <p class="card__description">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+              </p>
+              <div class="card__footer">
+                <ul class="card__icons">
+                  <li class="card__icon card__icon_type_like"></li>
+                  <li class="card__icon card__icon_type_folder"></li>
+                </ul>
+                <button class="card__button">Visit</button>
+              </div>
+            </div>
+            <div class="tools__card card">
+              <div class="card__gradient"></div>
+              <div class="card__header">
+                <img
+                  src="<%=require('./images/sketch-logo.svg')%>"
+                  alt="Логотип программы"
+                  class="card__image"
+                />
+                <div class="card__title">
+                  <h4 class="card__name">Sketch</h4>
+                  <p class="card__subtitle">Trial & Paid</p>
+                </div>
+              </div>
+              <p class="card__description">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+              </p>
+              <div class="card__footer">
+                <ul class="card__icons">
+                  <li class="card__icon card__icon_type_like"></li>
+                  <li class="card__icon card__icon_type_folder"></li>
+                </ul>
+                <button class="card__button">Visit</button>
+              </div>
+            </div>
+            <div class="tools__card card">
+              <div class="card__gradient"></div>
+              <div class="card__header">
+                <img
+                  src="<%=require('./images/vsc-logo.svg')%>"
+                  alt="Логотип программы"
+                  class="card__image"
+                />
+                <div class="card__title">
+                  <h4 class="card__name">Visual Studio Code</h4>
+                  <p class="card__subtitle">Free</p>
+                </div>
+              </div>
+              <p class="card__description">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+              </p>
+              <div class="card__footer">
+                <ul class="card__icons">
+                  <li class="card__icon card__icon_type_like"></li>
+                  <li class="card__icon card__icon_type_folder"></li>
+                </ul>
+                <button class="card__button">Visit</button>
+              </div>
+            </div>
+            <div class="tools__card card">
+              <div class="card__gradient"></div>
+              <div class="card__header">
+                <img
+                  src="<%=require('./images/notion-logo.svg')%>"
+                  alt="Логотип программы"
+                  class="card__image"
+                />
+                <div class="card__title">
+                  <h4 class="card__name">Notion</h4>
+                  <p class="card__subtitle">Free & Paid</p>
+                </div>
+              </div>
+              <p class="card__description">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+              </p>
+              <div class="card__footer">
+                <ul class="card__icons">
+                  <li class="card__icon card__icon_type_like"></li>
+                  <li class="card__icon card__icon_type_folder"></li>
+                </ul>
+                <button class="card__button">Visit</button>
+              </div>
+            </div>
+            <div class="tools__card card">
+              <div class="card__gradient"></div>
+              <div class="card__header">
+                <img
+                  src="<%=require('./images/slack-logo.svg')%>"
+                  alt="Логотип программы"
+                  class="card__image"
+                />
+                <div class="card__title">
+                  <h4 class="card__name">Slack</h4>
+                  <p class="card__subtitle">Free & Paid</p>
+                </div>
+              </div>
+              <p class="card__description">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+              </p>
+              <div class="card__footer">
+                <ul class="card__icons">
+                  <li class="card__icon card__icon_type_like"></li>
+                  <li class="card__icon card__icon_type_folder"></li>
+                </ul>
+                <button class="card__button">Visit</button>
+              </div>
+            </div>
+            <div class="tools__card card">
+              <div class="card__gradient"></div>
+              <div class="card__header">
+                <img
+                  src="<%=require('./images/invision-logo.svg')%>"
+                  alt="Логотип программы"
+                  class="card__image"
+                />
+                <div class="card__title">
+                  <h4 class="card__name">Invision</h4>
+                  <p class="card__subtitle">Free & Paid</p>
+                </div>
+              </div>
+              <p class="card__description">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+              </p>
+              <div class="card__footer">
+                <ul class="card__icons">
+                  <li class="card__icon card__icon_type_like"></li>
+                  <li class="card__icon card__icon_type_folder"></li>
+                </ul>
+                <button class="card__button">Visit</button>
+              </div>
+            </div>
+          </div>
+          <button class="tools__button">Load more</button>
         </section>
       </main>
     </div>

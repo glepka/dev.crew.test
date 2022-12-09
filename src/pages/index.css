@@ -29,5 +29,28 @@
 /* INPUT-BOX */
 @import url(../blocks/input-box/input-box.css);
 @import url(../blocks/input-box/__button/input-box__button.css);
-/* @import url(../blocks/input-box/__icon/input-box__icon.css); */
 @import url(../blocks/input-box/__input/input-box__input.css);
+
+/* TOOLS */
+@import url(../blocks/tools/tools.css);
+@import url(../blocks/tools/__button/tools__button.css);
+@import url(../blocks/tools/__cards/tools__cards.css);
+@import url(../blocks/tools/__subtitle/tools__subtitle.css);
+@import url(../blocks/tools/__title/tools__title.css);
+
+/* CARD */
+
+@import url(../blocks/card/card.css);
+@import url(../blocks/card/__button/card__button.css);
+@import url(../blocks/card/__description/card__description.css);
+@import url(../blocks/card/__footer/card__footer.css);
+@import url(../blocks/card/__header/card__header.css);
+@import url(../blocks/card/__icon/card__icon.css);
+@import url(../blocks/card/__icons/card__icons.css);
+@import url(../blocks/card/__image/card__image.css);
+@import url(../blocks/card/__name/card__name.css);
+@import url(../blocks/card/__subtitle/card__subtitle.css);
+@import url(../blocks/card/__title/card__title.css);
+@import url(../blocks/card/__gradient/card__gradient.css);
+@import url(../blocks/card/__icon/_type/card__icon_type_folder.css);
+@import url(../blocks/card/__icon/_type/card__icon_type_like.css);
