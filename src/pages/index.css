@@ -15,3 +15,19 @@
 @import url(../blocks/header/__sing-up-btn/header__sing-up-btn.css);
 @import url(../blocks/header/__buttons/header__buttons.css);
 @import url(../blocks/header/__span/header__span.css);
+
+/* INTRO */
+@import url(../blocks/intro/intro.css);
+@import url(../blocks/intro/__image/intro__image.css);
+@import url(../blocks/intro/__search/intro__search.css);
+@import url(../blocks/intro/__social-icon/intro__social-icon.css);
+@import url(../blocks/intro/__socials/intro__socials.css);
+@import url(../blocks/intro/__span/intro__span.css);
+@import url(../blocks/intro/__subtitle/intro__subtitle.css);
+@import url(../blocks/intro/__title/intro__title.css);
+
+/* INPUT-BOX */
+@import url(../blocks/input-box/input-box.css);
+@import url(../blocks/input-box/__button/input-box__button.css);
+/* @import url(../blocks/input-box/__icon/input-box__icon.css); */
+@import url(../blocks/input-box/__input/input-box__input.css);
