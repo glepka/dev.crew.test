@@ -6,5 +6,35 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Dev.Crew</title>
   </head>
-  <body></body>
+  <body class="page">
+    <div class="page__container">
+      <header class="header">
+        <img
+          src="<%=require('./images/logo.svg')%>"
+          alt="Логотип"
+          class="header__logo"
+        />
+        <nav class="header__nav">
+          <ul class="header__list">
+            <li><a href="#" class="header__link">Home</a></li>
+            <li>
+              <a href="#" class="header__link"
+                >Categories
+                <img
+                  src="<%=require('./images/arrow-down.svg')%>"
+                  alt="Стрелочка вниз"
+                />
+              </a>
+            </li>
+            <li><a href="#" class="header__link">My Collections</a></li>
+            <li><a href="#" class="header__link">Blog</a></li>
+          </ul>
+        </nav>
+        <div class="header__buttons">
+          <button class="header__login-btn">Login</button>
+          <button class="header__sing-up-btn">Sign Up</button>
+        </div>
+      </header>
+    </div>
+  </body>
 </html>
