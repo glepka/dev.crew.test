@@ -12,3 +12,7 @@
   margin-left: auto;
   cursor: pointer;
 }
+
+.input-box__button:hover {
+  background: #f78453;
+}

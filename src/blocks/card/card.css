@@ -37,3 +37,19 @@
 .card:hover .card__description {
   color: rgba(255, 255, 255, 0.78);
 }
+
+.card::before {
+  content: "";
+  position: absolute;
+  top: 2px;
+  bottom: 2px;
+  left: 2px;
+  right: 2px;
+  background: linear-gradient(
+    180deg,
+    rgba(255, 255, 255, 0.05),
+    rgba(255, 255, 255, 0)
+  );
+  border-radius: 13px;
+  z-index: 1;
+}
