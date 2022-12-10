@@ -77,3 +77,15 @@
 @import url(../blocks/contributor/__container/contributor__container.css);
 @import url(../blocks/contributor/__subtitle/contributor__subtitle.css);
 @import url(../blocks/contributor/__title/contributor__title.css);
+
+/* FOOTER */
+@import url(../blocks/footer/footer.css);
+@import url(../blocks/footer/__copyright-info/footer__copyright-info.css);
+@import url(../blocks/footer/__copyright-text/footer__copyright-text.css);
+@import url(../blocks/footer/__copyrights/footer__copyrights.css);
+@import url(../blocks/footer/__info-block/footer__info-block.css);
+@import url(../blocks/footer/__info/footer__info.css);
+@import url(../blocks/footer/__link/footer__link.css);
+@import url(../blocks/footer/__list/footer__list.css);
+@import url(../blocks/footer/__title/footer__title.css);
+@import url(../blocks/footer/__logo/footer__logo.css);
