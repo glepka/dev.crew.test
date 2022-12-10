@@ -53,6 +53,7 @@
 @import url(../blocks/card/__gradient/card__gradient.css);
 @import url(../blocks/card/__icon/_type/card__icon_type_folder.css);
 @import url(../blocks/card/__icon/_type/card__icon_type_like.css);
+@import url(../blocks/card/_type/card_type_newcomer.css);
 
 /* BRANDS */
 @import url(../blocks/brands/brands.css);
@@ -60,3 +61,19 @@
 @import url(../blocks/brands/__gradient/brands__gradient.css);
 @import url(../blocks/brands/__logos/brands__logos.css);
 @import url(../blocks/brands/__title/brands__title.css);
+
+/* NEWCOMER */
+
+@import url(../blocks/newcomer/newcomer.css);
+@import url(../blocks/newcomer/__container/newcomer__container.css);
+@import url(../blocks/newcomer/__description/newcomer__description.css);
+@import url(../blocks/newcomer/__button/newcomer__button.css);
+@import url(../blocks/newcomer/__subtitle/newcomer__subtitle.css);
+@import url(../blocks/newcomer/__title/newcomer__title.css);
+@import url(../blocks/newcomer/__cards/newcomer__cards.css);
+
+/* CONTRIBUTOR */
+@import url(../blocks/contributor/contributor.css);
+@import url(../blocks/contributor/__container/contributor__container.css);
+@import url(../blocks/contributor/__subtitle/contributor__subtitle.css);
+@import url(../blocks/contributor/__title/contributor__title.css);
